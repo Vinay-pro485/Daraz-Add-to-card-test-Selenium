@@ -6,7 +6,7 @@
 			<class name="test.TestingXML2">
 				<methods>
 					<!--<include name="googleSearchTest3"></include> -->
-					<exclude name="googleSearchTest3"></exclude>
+					<exclude name="googleSearchTest2"></exclude>
 				</methods>
 			</class>
 		</classes>
