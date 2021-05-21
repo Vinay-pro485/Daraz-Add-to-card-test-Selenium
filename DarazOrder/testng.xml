@@ -1,0 +1,14 @@
+
+<suite name="Suite1">
+	<test thread-count="5" name="Test1">
+		<classes>
+			<class name="test.TestingXML" />
+			<class name="test.TestingXML2">
+				<methods>
+					<!--<include name="googleSearchTest3"></include> -->
+					<exclude name="googleSearchTest3"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>   

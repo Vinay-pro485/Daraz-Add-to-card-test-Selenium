@@ -6,13 +6,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import Pages.GoogleSearchPageObjects;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class GooglePageSearchTest {
+public class DarazSearchTest {
 	
 	private static WebDriver driver = null;
-	
+		
 	public static void main(String[] args) throws InterruptedException {
 		
 		googleSearchTest();
+		tearDownTest();
 	}
 	
 	public static void googleSearchTest() throws InterruptedException {
@@ -23,15 +24,20 @@ public class GooglePageSearchTest {
 	    GoogleSearchPageObjects searchPageObj = new GoogleSearchPageObjects(driver);
 	    
 	    driver.get("https://www.ebay.com");
-	    Thread.sleep(2000);
+	    Thread.sleep(1000);
 	    
 	    searchPageObj.setTextInSearchBox("mobile");
-	    Thread.sleep(2000);
+	    Thread.sleep(1000);
 
 	    searchPageObj.clickSearchButton();
-	    Thread.sleep(2000);
-
-	    driver.close();
+	    Thread.sleep(1000);
 	    
 	}
+	
+	public static void tearDownTest() {
+		
+		driver.close();
+		
+	}
+	
 }
