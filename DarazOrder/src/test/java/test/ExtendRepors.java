@@ -29,9 +29,9 @@ public class ExtendRepors {
 		driver = new ChromeDriver();
 		test1.log(Status.INFO, "Starting test case");
 	
-		driver.get("https://www.ebay.com");
+		driver.get("https://www.daraz.lk/");
 		Thread.sleep(2000);
-		test1.pass("Navigate to Ebay.com");
+		test1.pass("Navigate to daraz.lk");
 
 		GoogleSearchPageObjects searchPageObj = new GoogleSearchPageObjects(driver);
 		
