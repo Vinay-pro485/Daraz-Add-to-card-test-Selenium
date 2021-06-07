@@ -55,7 +55,6 @@ public void test12() throws InterruptedException {
  driver.findElement(By.xpath("//*[@id=\"gh-btn\"]")).sendKeys(Keys.RETURN);
  Thread.sleep(1000);
  
- 
 }
  
  @AfterTest
