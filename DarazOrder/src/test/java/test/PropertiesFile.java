@@ -14,7 +14,6 @@ public class PropertiesFile {
 	static String projectPath = System.getProperty("user.dir");
 
 	public static void main(String[] args) {
-
 		getProperties();
 		setProperties();
 		getProperties();
@@ -37,8 +36,7 @@ public class PropertiesFile {
 
 
 		} catch (Exception exp) {
-
-			System.out.println(exp.getMessage());
+        	System.out.println(exp.getMessage());
 			System.out.println(exp.getCause());
 			exp.printStackTrace();
 
@@ -59,7 +57,6 @@ public class PropertiesFile {
 			
 
 		} catch (Exception exp) {
-
 			System.out.println(exp.getMessage());
 			System.out.println(exp.getCause());
 			exp.printStackTrace();
