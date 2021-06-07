@@ -11,9 +11,9 @@ public class DarazSearchTest {
 	private static WebDriver driver = null;
 		
 	public static void main(String[] args) throws InterruptedException {
-		
 		googleSearchTest();
 		tearDownTest();
+		
 	}
 	
 	public static void googleSearchTest() throws InterruptedException {
