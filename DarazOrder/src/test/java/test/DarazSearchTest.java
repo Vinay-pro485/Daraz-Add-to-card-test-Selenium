@@ -35,8 +35,7 @@ public class DarazSearchTest {
 	}
 	
 	public static void tearDownTest() {
-		
-		driver.close();
+			driver.close();
 		
 	}
 	
