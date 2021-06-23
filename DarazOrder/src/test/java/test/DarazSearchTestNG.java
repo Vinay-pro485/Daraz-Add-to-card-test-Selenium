@@ -60,5 +60,6 @@ public void test12() throws InterruptedException {
  @AfterTest
  public void  tearDown() {
   driver.quit();
+  
 }
 }
