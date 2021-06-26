@@ -26,7 +26,7 @@ public class DarazSearchTestNG {
  
   //maximize the window 
   driver.manage().window().maximize();
-  driver.get("https://www.ebay.co");
+  driver.get("https://www.ebay.com");
   Thread.sleep(1000);
   
   String actualTitle = driver.getTitle();
