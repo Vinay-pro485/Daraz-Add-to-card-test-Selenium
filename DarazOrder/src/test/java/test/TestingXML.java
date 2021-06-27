@@ -38,7 +38,6 @@ public class TestingXML {
 	
 	@AfterTest
 	public void tearDownTest() {
-		
 		driver.close();
 		
 	}
