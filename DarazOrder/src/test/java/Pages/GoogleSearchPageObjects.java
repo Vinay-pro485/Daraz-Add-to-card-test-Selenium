@@ -7,8 +7,7 @@ import org.openqa.selenium.WebDriver;
 public class GoogleSearchPageObjects {
 	
 	WebDriver driver = null;
-
-	By textbox_search = By.name("_nkw");
+    By textbox_search = By.name("_nkw");
 	By button_search = By.id("gh-btn");
 
 	public GoogleSearchPageObjects(WebDriver driver) {
