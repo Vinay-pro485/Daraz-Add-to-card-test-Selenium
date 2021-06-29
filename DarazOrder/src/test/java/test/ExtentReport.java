@@ -64,8 +64,7 @@ public class ExtentReport {
 		test1.pass("closed the browser");
 		test1.info("test completed");
 		
-		//write results into the file				
-		
+		//write results into the file						
 		extent.flush();
 	}   
 }
