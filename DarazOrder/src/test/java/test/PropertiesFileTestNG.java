@@ -27,7 +27,6 @@ public class PropertiesFileTestNG {
 	static String expectedTitledaraz ="Online Shopping Sri Lanka: Clothes, Electronics & Phones | Daraz.lk";
 
 	//create the htmlReporter object 
-
 	ExtentSparkReporter htmlReporter;
 	ExtentReports extent;
 	ExtentTest test1;
