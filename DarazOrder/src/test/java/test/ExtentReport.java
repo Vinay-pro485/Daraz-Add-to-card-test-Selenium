@@ -65,7 +65,6 @@ public class ExtentReport {
 		test1.info("test completed");
 		
 		//write results into the file
-		
 		extent.flush();
 	}   
 }
